@@ -10,10 +10,11 @@ a {
 
 .main_container {
     display: block;
-    background-color: #788097;
-    margin-bottom: 0px;
-    border: 1px solid #788097;
-    height: 120px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 5;
 }
 
 .yellow {
@@ -29,7 +30,7 @@ a {
 .sidebar {
     display: flex;
     color: black;
-    height: 120px;
+    height: 80px;
     align-items: center;
     width: 100%;
     margin-bottom: 20px;
@@ -39,13 +40,13 @@ a {
 
 a {
     color: white;
+    font-size: 20px;
 }
 
 
 .routes {
     display: flex;
-    width: 50%;
-    color: red;
+    width: 40%;
     justify-content: space-around;
 }
 
@@ -55,15 +56,11 @@ a {
     gap: 0px;
     color: white;
     width: fit-content;
-    padding: 5px 10px;
-    border-right: none;
-    transition: none;
-    border-right: 3px solid #788097;
-    border-bottom: 3px solid #788097;
-    background: none;
+    padding: 5px 15px;
+
 }
 
-.active {
+.link:active {
     border-bottom: 3px solid #ed002f;
     width: fit-content;
     border-right: 3px solid #788097;
@@ -72,9 +69,7 @@ a {
     padding: 5px 10px;
 }
 
-.link_text {
-    font-size: 22px;
-}
+
 
 .link:hover {
     transition: width 2s linear 1s;
@@ -82,6 +77,5 @@ a {
     width: fit-content;
     padding: 5px 10px;
     border-radius: 8px;
-    border-bottom: 3px solid red;
-    border-right: 3px solid white;
+    padding: 5px 15px;
 }

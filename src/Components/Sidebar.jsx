@@ -1,54 +1,48 @@
 
 import React, { useState } from 'react'
 import "./Sidebar.css"
-import { NavLink } from 'react-router-dom'
 import Drawer from './Drawer'
-
-
-const links = [
-    {
-        path: "/",
-        name: "HOME",
-    },
-    {
-        path: "/about",
-        name: "ABOUT",
-    },
-    {
-        path: "/projects",
-        name: "PROJECTS",
-    },
-    {
-        path: "/contacts",
-        name: "CONTACTS",
-    },
-    {
-        path: "/skills",
-        name: "SKILLS",
-    },
-]
+import { Link } from 'react-scroll'
+import { Box, IconButton, useColorMode, useColorModeValue } from '@chakra-ui/react'
+import { FaSun, FaMoon } from "react-icons/fa"
 
 const Sidebar = () => {
 
+    const { colorMode, toggleColorMode } = useColorMode()
+    const isDark = colorMode === "dark"
+    const bg = useColorModeValue('#788097', 'black')
+    const color = useColorModeValue('white', 'black')
+
     return (
         <div>
-            <div className="main_container">
+            <Box className="main_container" bg={bg} >
                 <div className='sidebar'>
                     <div className="top_section">
                         <h1 className='logo'>
-                            GAU<span className='yellow'>TAM</span>
+                            G<span className='yellow'>K</span>
                         </h1>
                     </div>
                     <section className='routes'>
-                        {links.map((route) =>
-                            <NavLink activeclassname="active" to={route.path} key={route.name} className="link">
-                                <div className="link_text">{route.name}</div>
-                            </NavLink>
-                        )}
+                        <Link to="homea" offset={-120} spy={true} smooth={true} >
+                            <p className='link'>HOME</p>
+                        </Link>
+                        <Link to="about" offset={-300} spy={true} smooth={true}>
+                            <p className='link'>ABOUT</p>
+                        </Link>
+                        <Link to="project" offset={-120} spy={true} smooth={true}>
+                            <p className='link'>PROJECTS</p>
+                        </Link>
+                        <Link to="skill" offset={-120} spy={true} smooth={true}>
+                            <p className='link'>SKILLS</p>
+                        </Link>
+                        <Link to="contact" offset={-200} spy={true} smooth={true}>
+                            <p className='link'>CONTACT</p>
+                        </Link>
+                        <IconButton bg={isDark ? "black" : "white"} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun color='yellow' size="25px" /> : <FaMoon color='black' size="20px" />} />
                     </section>
                 </div>
 
-            </div>
+            </Box>
         </div >
     )
 }
