@@ -16,13 +16,13 @@ const Sidebar = () => {
     return (
         <div>
             <Box className="main_container" bg={bg} >
-                <div className='sidebar'>
-                    <div className="top_section">
+                <Box className='sidebar'>
+                    <Box className="top_section">
                         <h1 className='logo'>
                             G<span className='yellow'>K</span>
                         </h1>
-                    </div>
-                    <section className='routes'>
+                    </Box>
+                    <Box className='routes'>
                         <Link to="homea" offset={-120} spy={true} smooth={true} >
                             <p className='link'>HOME</p>
                         </Link>
@@ -39,8 +39,8 @@ const Sidebar = () => {
                             <p className='link'>CONTACT</p>
                         </Link>
                         <IconButton bg={isDark ? "black" : "white"} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun color='yellow' size="25px" /> : <FaMoon color='black' size="20px" />} />
-                    </section>
-                </div>
+                    </Box>
+                </Box>
 
             </Box>
         </div >

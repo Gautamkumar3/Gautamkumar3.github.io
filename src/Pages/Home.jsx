@@ -3,11 +3,12 @@ import React, { useEffect } from 'react'
 import profile from "../Img/gautam_profile.png"
 import back from "../Img/background1.png"
 import Styles from "../Components/navbar.module.css"
-import resume from "../Img/gautam_resume.pdf"
+import resume from "../Img/Gautam_kumar_resume.pdf"
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import Typed from 'react-typed';
 import { Link } from 'react-scroll'
+import { DownloadIcon } from '@chakra-ui/icons'
 
 const Home = () => {
 
@@ -40,7 +41,9 @@ const Home = () => {
                                         backSpeed={80}
                                     /> </span> </Text>
                                 <a href={resume} download>
-                                    <Button mt={5} fontWeight="bold" fontSize="20px" width="fit-content" color="white" bg="#F5C32c" _hover={{ variant: 'outline', color: "#F5C32c", bg: "white", border: "2px solid #F5c32c" }}>Resume</Button></a>
+                                    <Button rightIcon={<DownloadIcon />} mt={5} fontWeight="bold" fontSize="20px" width="fit-content" color="white" bg="#F5C32c" _hover={{ variant: 'outline', color: "#F5C32c", bg: "white", border: "2px solid #F5c32c" }}>Resume
+                                    </Button></a>
+                       
                             </Box >
 
                         </SimpleGrid >
@@ -64,7 +67,7 @@ const Home = () => {
                                     </span> </Text>
 
                                     <a href={resume} download>
-                                        <Button mt={5} fontWeight="bold" fontSize="20px" width="fit-content" color="white" bg="#F5C32c" _hover={{ variant: 'outline', color: "#F5C32c", bg: "white", border: "2px solid #F5c32c" }}>Resume</Button></a>
+                                        <Button rightIcon={<DownloadIcon />} mt={5} fontWeight="bold" fontSize="20px" width="fit-content" color="white" bg="#F5C32c" _hover={{ variant: 'outline', color: "#F5C32c", bg: "white", border: "2px solid #F5c32c" }}>Resume</Button></a>
                                 </Flex >
                                 <Flex w="40%" position="relative" data-aos="zoom-in">
                                     <Image h={["100px", "150px", "200px", "340px"]} w={["200px", "250px", "300px", "400px"]} src={back} />

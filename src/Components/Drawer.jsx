@@ -41,7 +41,7 @@ export default function DrawerNav() {
                     }} onClick={onOpen}>
                         <FaBars />
                     </Button>
-                    <IconButton bg={isDark ? "black" : "white"} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun /> : <FaMoon color='black' />} />
+                    <IconButton bg={isDark ? "black" : "white"} size='sm' m={2} onClick={toggleColorMode} icon={isDark ? <FaSun color='yellow' fontSize="20px" /> : <FaMoon color='black' />} />
                 </Flex>
             </Flex>
             <Drawer
