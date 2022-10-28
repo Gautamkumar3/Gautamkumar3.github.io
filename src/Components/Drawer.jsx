@@ -22,7 +22,7 @@ export default function DrawerNav() {
     const { colorMode, toggleColorMode } = useColorMode()
     const isDark = colorMode === "dark"
 
-    const bg = useColorModeValue('#788097', 'black')
+    const bg = useColorModeValue('#2B547E', 'black')
     const color = useColorModeValue('white', 'black')
 
     const { isOpen, onOpen, onClose } = useDisclosure()

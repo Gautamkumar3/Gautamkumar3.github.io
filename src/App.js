@@ -1,6 +1,7 @@
 
 import './App.css';
 import Navbar from './Components/Navbar';
+import ProjectCard from './Components/ProjectCard';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
@@ -18,10 +19,12 @@ function App() {
       <Home />
       <About />
       <Projects />
+      <ProjectCard />
       <Skills />
       <Github />
       <Contact />
       <Footer />
+     
     </div>
   );
 }

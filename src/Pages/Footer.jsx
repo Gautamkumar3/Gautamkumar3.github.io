@@ -5,7 +5,7 @@ import { EmailIcon } from "@chakra-ui/icons";
 
 const Footer = () => {
     const { colorMode, toggleColorMode } = useColorMode()
-    const bg = useColorModeValue('#788097', 'black')
+    const bg = useColorModeValue('#2B547E', 'black')
     const color = useColorModeValue('white', 'white')
 
     return (
