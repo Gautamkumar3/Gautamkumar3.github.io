@@ -29,6 +29,12 @@ import car4 from "../Img/cartify/cartify_men.png"
 import car5 from "../Img/cartify/cartify_searchbar.png"
 import car6 from "../Img/cartify/cartify_details.png"
 import car7 from "../Img/cartify/cartify_cart.png"
+import net1 from "../Img/netmeds/netmeds_home.png"
+import net2 from "../Img/netmeds/netmeds_signup.png"
+import net3 from "../Img/netmeds/netmeds_login.png"
+import net4 from "../Img/netmeds/netmeds_products.png"
+import net5 from "../Img/netmeds/netmeds_cart.png"
+
 
 const ProjectCard = () => {
 
@@ -131,7 +137,7 @@ const ProjectCard = () => {
             </Text>
             <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
             <div>
-              <Text color="gray.400">Toggl Track is an app that allows you to track your team members, clients, projects, and time taken for each project.</Text>
+              <Text color="gray.400">Toggl Track is an app that allows you to track your team members, clients, projects, and the time taken for each project.</Text>
             </div>
             <Text fontSize={"large"} color="gray.400">It is a group project.</Text>
             <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
@@ -232,11 +238,11 @@ const ProjectCard = () => {
             </Text>
             <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
             <div>
-              <Text color="gray.400">This is an e-commerse website named as Cartify. Users can search product, view product details, and add product to the cart.</Text>
+              <Text color="gray.400">This is an e-commerce website named Cartify. Users can search for products, view product details, and add products to the cart.</Text>
             </div>
             <Text fontSize={"large"} color="gray.400">It is an Indivisual project.</Text>
             <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
-            <Text fontSize={"large"} color="gray.400">I created Home Page, Many Products Pages, Signup Page, Login Page and Cart Page. </Text>
+            <Text fontSize={"large"} color="gray.400">I created Home Page, Many Products Pages, Signup Page, Login Page, and Cart Page. </Text>
 
             <Flex mt={5} justify="center" gap={10} >
               <a href="https://gk-singh-cart-demo.netlify.app/" target="blank">
@@ -250,6 +256,101 @@ const ProjectCard = () => {
         </Box>
       </SimpleGrid>
 
+
+      {/* ######################### Netmeds ########################  */}
+
+      <SimpleGrid name='projects'
+        h="auto"
+        w={["90%", "90%", "80%", "80%"]}
+        m="auto"
+        p={1}
+        columns={[1, 1, 2]}
+        mt={"20px"}
+        borderRadius="7px"
+        bg={"#2B547E"}
+        boxShadow='rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' >
+
+        <Box data-aos="fade-up"
+          data-aos-duration="1500">
+
+          <Box p={3}>
+            <Carousel
+              showThumbs={false}
+              autoPlay={true}
+              transitionTime={2}
+              infiniteLoop={true}
+              showStatus={false}
+              showArrows={false}
+            >
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={net1} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={net2} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={net3} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={net4} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={net5} />
+              </div>
+            </Carousel>
+            <Flex justify="center" gap={5} m="auto" my={5}>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image w={"40px"} src={html} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={css} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={js} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={rct} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image h={["15px", "20px", "20px", "30px"]} src={rct_router} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={chakra} />
+              </Box>
+            </Flex>
+          </Box>
+        </Box>
+
+        <Box data-aos="fade-up"
+          data-aos-duration="1500">
+
+          <Box p={3} >
+            <Text
+              fontSize="xx-large"
+              color={'yellowGreen'}
+              fontWeight='semibold'
+              font>
+              Netmeds.com
+            </Text>
+            <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+            <div>
+              <Text color="gray.400">This is a pharmacy's website named Netmeds. It allows users to buy medicines online rather than at a medical shop. </Text>
+            </div>
+            <Text fontSize={"large"} color="gray.400">It is an indivisual project.</Text>
+            <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
+            <Text fontSize={"large"} color="gray.400">I created Home Page, Product Page, Login Page, Signup Page, and Cart Page. </Text>
+
+            <Flex mt={5} justify="center" gap={10} >
+              <a href="https://netmeds-five.vercel.app/" target="blank">
+                <Image w="40px" borderRadius="50%" bg={"white"} _hover={{ bg: "#63B3ED", padding: "2px", borderRadius: "50%" }} src="https://img.icons8.com/sf-regular-filled/2x/visible.png" />
+              </a>
+              <a href="https://github.com/Gautamkumar3/unique-color-3040" target="blank">
+                <Image w="40px" h="40px" bg={"white"} borderRadius="50%" _hover={{ bg: "#63B3ED", padding: "2px", borderRadius: "50%", p: "5px" }} src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" />
+              </a>
+            </Flex>
+          </Box >
+        </Box>
+      </SimpleGrid>
 
     </>
   )
