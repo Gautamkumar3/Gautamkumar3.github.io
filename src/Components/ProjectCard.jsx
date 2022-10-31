@@ -22,6 +22,13 @@ import css from "../Img/techstack/css.png"
 import rct from "../Img/techstack/react.png"
 import redux from "../Img/techstack/redux.png"
 import mdb from "../Img/techstack/mongo.png"
+import car1 from "../Img/cartify/cartify_home.png"
+import car2 from "../Img/cartify/cartify_signup.png"
+import car3 from "../Img/cartify/cartify_login.png"
+import car4 from "../Img/cartify/cartify_men.png"
+import car5 from "../Img/cartify/cartify_searchbar.png"
+import car6 from "../Img/cartify/cartify_details.png"
+import car7 from "../Img/cartify/cartify_cart.png"
 
 const ProjectCard = () => {
 
@@ -78,36 +85,33 @@ const ProjectCard = () => {
                 <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={toogl7} />
               </div>
             </Carousel>
-            <Flex justify="space-between" m="auto" my={5}>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+            <Flex justify="space-between" gap={1} m="auto" mt={5}>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image w={"40px"} src={html} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={css} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={js} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={rct} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
-                <Image h={"30px"} src={rct_router} />
-              </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={redux} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={chakra} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={mdb} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                 <Image src={express} />
               </Box>
-              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} h="50px">
-                <Image h={"35px"} src={node} />
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image h={["15px", "20px", "20px", "30px"]} src={node} />
               </Box>
 
             </Flex>
@@ -134,14 +138,114 @@ const ProjectCard = () => {
             <Text fontSize={"large"} color="gray.400">I was responsible for creating Login page, Signup page, and all the backend part of this website. </Text>
 
             <Flex mt={5} justify="center" gap={10} >
-              <a href="https://cricket-4bc52.web.app/" target="blank">
+              <a href="https://toggl-time-tracking.vercel.app/" target="blank">
                 <Image w="40px" borderRadius="50%" bg={"white"} _hover={{ bg: "#63B3ED", padding: "2px", borderRadius: "50%" }} src="https://img.icons8.com/sf-regular-filled/2x/visible.png" />
               </a>
-              <a href="https://github.com/Gautamkumar3/humane-theory-4192/tree/master/cricket" target="blank">
+              <a href="https://github.com/Amanyadav2030/toggl-track-clone" target="blank">
                 <Image w="40px" h="40px" bg={"white"} borderRadius="50%" _hover={{ bg: "#63B3ED", padding: "2px", borderRadius: "50%", p: "5px" }} src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" />
               </a>
             </Flex>
+          </Box >
+        </Box>
+      </SimpleGrid>
 
+
+      {/* ################### cartify project card ###################### */}
+      <SimpleGrid name='projects'
+        h="auto"
+        w={["90%", "90%", "80%", "80%"]}
+        m="auto"
+        p={1}
+        columns={[1, 1, 2]}
+        mt={"20px"}
+        borderRadius="7px"
+        bg={"#2B547E"}
+        boxShadow='rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' >
+
+        <Box data-aos="fade-up"
+          data-aos-duration="1500">
+
+          <Box p={3}>
+            <Carousel
+              showThumbs={false}
+              autoPlay={true}
+              transitionTime={2}
+              infiniteLoop={true}
+              showStatus={false}
+              showArrows={false}
+            >
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car1} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car2} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car3} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car4} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car5} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car6} />
+              </div>
+              <div>
+                <Image borderRadius="5px" height={["150px", "250px", "250px"]} src={car7} />
+              </div>
+            </Carousel>
+            <Flex justify="center" gap={5} m="auto" my={5}>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image w={"40px"} src={html} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={css} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={js} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={rct} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image h={["15px", "20px", "20px", "30px"]} src={rct_router} />
+              </Box>
+              <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Image src={chakra} />
+              </Box>
+            </Flex>
+          </Box>
+        </Box>
+
+        <Box data-aos="fade-up"
+          data-aos-duration="1500">
+
+          <Box p={3} >
+            <Text
+              fontSize="xx-large"
+              color={'yellowGreen'}
+              fontWeight='semibold'
+              font>
+              Cartify.com
+            </Text>
+            <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+            <div>
+              <Text color="gray.400">This is an e-commerse website named as Cartify. Users can search product, view product details, and add product to the cart.</Text>
+            </div>
+            <Text fontSize={"large"} color="gray.400">It is an Indivisual project.</Text>
+            <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
+            <Text fontSize={"large"} color="gray.400">I created Home Page, Many Products Pages, Signup Page, Login Page and Cart Page. </Text>
+
+            <Flex mt={5} justify="center" gap={10} >
+              <a href="https://gk-singh-cart-demo.netlify.app/" target="blank">
+                <Image w="40px" borderRadius="50%" bg={"white"} _hover={{ bg: "#63B3ED", padding: "2px", borderRadius: "50%" }} src="https://img.icons8.com/sf-regular-filled/2x/visible.png" />
+              </a>
+              <a href="https://github.com/masai-course/Gautam_fw18_0032/tree/master/unit-4-async/sprint-3/day-3/assignments/router-project" target="blank">
+                <Image w="40px" h="40px" bg={"white"} borderRadius="50%" _hover={{ bg: "#63B3ED", padding: "2px", borderRadius: "50%", p: "5px" }} src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" />
+              </a>
+            </Flex>
           </Box >
         </Box>
       </SimpleGrid>
