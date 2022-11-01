@@ -1,4 +1,4 @@
-import { Box, Center, Heading } from '@chakra-ui/react'
+import { Box, Center, Flex, Heading, Image, SimpleGrid } from '@chakra-ui/react'
 import React from 'react'
 import GitHubCalendar from 'react-github-calendar'
 const Github = () => {
@@ -8,7 +8,19 @@ const Github = () => {
             <Center>
                 <GitHubCalendar username="Gautamkumar3" />
             </Center>
-
+            <Heading color="red" textAlign="center" my={[5, 10]}>Github Stats</Heading>
+            <SimpleGrid columns={[1,3]} >
+                <Center>
+                    <Image src="https://github-readme-stats.vercel.app/api?username=Gautamkumar3&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
+                </Center>
+         
+                <Box>
+                    <Image src="https://github-readme-stats.vercel.app/api/top-langs/?username=Gautamkumar3&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+                </Box>
+                <Center>
+                    <Image src="https://github-readme-streak-stats.herokuapp.com/?user=Gautamkumar3&theme=dark&hide_border=false" />
+                </Center>
+            </SimpleGrid>
         </Box>
     )
 }
