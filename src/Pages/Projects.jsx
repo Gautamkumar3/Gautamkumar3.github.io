@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { FaGithub, FaLink } from "react-icons/fa"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Text, SimpleGrid, Box, Flex, Button, IconButton, color, Link, Image, Heading } from "@chakra-ui/react"
+import { Text, SimpleGrid, Box, Flex, Button, IconButton, color, Link, Image, Heading, useColorMode, useColorModeValue } from "@chakra-ui/react"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import toogl1 from "../Img/toogl/toogl_home.png"
@@ -44,6 +44,12 @@ import cric5 from "../Img/cricket/cric_sche.png"
 
 const Projects = () => {
 
+
+  const { colorMode, toggleColorMode } = useColorMode()
+  const isDark = colorMode === "dark"
+  const bg = useColorModeValue('#2B547E', 'black')
+  const color = useColorModeValue('white', 'black')
+
   useEffect(() => {
     Aos.init();
   }, [])
@@ -61,7 +67,7 @@ const Projects = () => {
           columns={[1, 1, 2]}
           mt={"20px"}
           borderRadius="7px"
-          bg={"#2B547E"}
+          bg={bg}
           boxShadow='rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' >
 
           <Box data-aos="fade-up"
@@ -172,7 +178,7 @@ const Projects = () => {
           columns={[1, 1, 2]}
           mt={"20px"}
           borderRadius="7px"
-          bg={"#2B547E"}
+          bg={bg}
           boxShadow='rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' >
 
           <Box data-aos="fade-up"
@@ -274,7 +280,7 @@ const Projects = () => {
           columns={[1, 1, 2]}
           mt={"20px"}
           borderRadius="7px"
-          bg={"#2B547E"}
+          bg={bg}
           boxShadow='rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' >
 
           <Box data-aos="fade-up"
@@ -369,7 +375,7 @@ const Projects = () => {
           columns={[1, 1, 2]}
           mt={"20px"}
           borderRadius="7px"
-          bg={"#2B547E"}
+          bg={bg}
           boxShadow='rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset' >
 
           <Box data-aos="fade-up"
