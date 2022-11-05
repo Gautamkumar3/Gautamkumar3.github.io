@@ -99,31 +99,31 @@ const Projects = () => {
                 </div>
               </Carousel>
               <Flex justify="space-between" gap={1} m="auto" mt={5}>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image w={"40px"} src={html} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={css} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={js} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={rct} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={redux} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={chakra} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={mdb} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={express} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image h={["15px", "20px", "20px", "30px"]} src={node} />
                 </Box>
 
@@ -137,18 +137,18 @@ const Projects = () => {
             <Box p={3} >
               <Text
                 fontSize="xx-large"
-                color={'yellowGreen'}
+                color="#F5C32C"
                 fontWeight='semibold'
                 font>
                 Toogl track.com
               </Text>
-              <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+              <Text letterSpacing={1.5} fontSize={"x-large"} color="#F5C32C">About Project</Text>
               <div>
-                <Text color="gray.400">Toggl Track is an app that allows you to track your team members, clients, projects, and the time taken for each project.</Text>
+                <Text color="white">Toggl Track is an app that allows you to track your team members, clients, projects, and the time taken for each project.</Text>
               </div>
-              <Text fontSize={"large"} color="gray.400">It is a group project.</Text>
-              <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
-              <Text fontSize={"large"} color="gray.400">I was responsible for creating Login page, Signup page, and all the backend part of this website. </Text>
+              <Text fontSize={"large"} color="white">It is a group project.</Text>
+              <Text fontSize={"x-large"} color="#F5C32C">Role</Text>
+              <Text fontSize={"large"} color="white">I was responsible for creating Login page, Signup page, and all the backend part of this website. </Text>
 
               <Flex mt={5} justify="center" gap={10} >
                 <a href="https://toggl-time-tracking.vercel.app/" target="blank">
@@ -210,22 +210,22 @@ const Projects = () => {
                 </div>
               </Carousel>
               <Flex justify="center" gap={5} m="auto" my={5}>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image w={"40px"} src={html} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={css} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={js} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={rct} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image h={["15px", "20px", "20px", "30px"]} src={rct_router} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={chakra} />
                 </Box>
               </Flex>
@@ -238,18 +238,18 @@ const Projects = () => {
             <Box p={3} >
               <Text
                 fontSize="xx-large"
-                color={'yellowGreen'}
+                color={'#F5C32C'}
                 fontWeight='semibold'
                 font>
                 Cartify.com
               </Text>
-              <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+              <Text letterSpacing={1.5} fontSize={"x-large"} color="#F5C32C">About Project</Text>
               <div>
-                <Text color="gray.400">This is an e-commerce website named Cartify. Users can search for products, view product details, and add products to the cart.</Text>
+                <Text color="white">This is an e-commerce website named Cartify. Users can search for products, view product details, and add products to the cart.</Text>
               </div>
-              <Text fontSize={"large"} color="gray.400">It is an Indivisual project.</Text>
-              <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
-              <Text fontSize={"large"} color="gray.400">I created Home Page, Many Products Pages, Signup Page, Login Page, and Cart Page. </Text>
+              <Text fontSize={"large"} color="white">It is an Indivisual project.</Text>
+              <Text fontSize={"x-large"} color="#F5C32C">Role</Text>
+              <Text fontSize={"large"} color="white">I created Home Page, Many Products Pages, Signup Page, Login Page, and Cart Page. </Text>
 
               <Flex mt={5} justify="center" gap={10} >
                 <a href="https://gk-singh-cart-demo.netlify.app/" target="blank">
@@ -306,22 +306,22 @@ const Projects = () => {
                 </div>
               </Carousel>
               <Flex justify="center" gap={5} m="auto" my={5}>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image w={"40px"} src={html} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={css} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={js} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={rct} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image h={["15px", "20px", "20px", "30px"]} src={rct_router} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={chakra} />
                 </Box>
               </Flex>
@@ -334,18 +334,18 @@ const Projects = () => {
             <Box p={3} >
               <Text
                 fontSize="xx-large"
-                color={'yellowGreen'}
+                color={'#F5C32C'}
                 fontWeight='semibold'
                 font>
                 Netmeds.com
               </Text>
-              <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+              <Text letterSpacing={1.5} fontSize={"x-large"} color="#F5C32C">About Project</Text>
               <div>
-                <Text color="gray.400">This is a pharmacy's website named Netmeds. It allows users to buy medicines online rather than at a medical shop. </Text>
+                <Text color="white">This is a pharmacy's website named Netmeds. It allows users to buy medicines online rather than at a medical shop. </Text>
               </div>
-              <Text fontSize={"large"} color="gray.400">It is an indivisual project.</Text>
-              <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
-              <Text fontSize={"large"} color="gray.400">I created Home Page, Product Page, Login Page, Signup Page, and Cart Page. </Text>
+              <Text fontSize={"large"} color="white">It is an indivisual project.</Text>
+              <Text fontSize={"x-large"} color="#F5C32C">Role</Text>
+              <Text fontSize={"large"} color="white">I created Home Page, Product Page, Login Page, Signup Page, and Cart Page. </Text>
 
               <Flex mt={5} justify="center" gap={10} >
                 <a href="https://netmeds-five.vercel.app/" target="blank">
@@ -401,25 +401,25 @@ const Projects = () => {
                 </div>
               </Carousel>
               <Flex justify="center" gap={5} m="auto" my={5}>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image w={"40px"} src={html} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={css} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={js} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={rct} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={firebase} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image h={["15px", "20px", "20px", "30px"]} src={rct_router} />
                 </Box>
-                <Box border="1px solid yellowgreen" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
+                <Box border="1px solid #F5C32C" p={2} boxSizing="border-box" w={"50px"} maxH="50px">
                   <Image src={chakra} />
                 </Box>
               </Flex>
@@ -432,18 +432,18 @@ const Projects = () => {
             <Box p={3} >
               <Text
                 fontSize="xx-large"
-                color={'yellowGreen'}
+                color={'#F5C32C'}
                 fontWeight='semibold'
                 font>
                 Cricket.com
               </Text>
-              <Text letterSpacing={1.5} fontSize={"x-large"} color="yellowGreen">About Project</Text>
+              <Text letterSpacing={1.5} fontSize={"x-large"} color="#F5C32C">About Project</Text>
               <div>
-                <Text color="gray.400">This is a sports website. It is powered by data-driven insights, AI-based performance predictions, and smart fan features that will enhance your cricket-following experience like never before.</Text>
+                <Text color="white">This is a sports website. It is powered by data-driven insights, AI-based performance predictions, and smart fan features that will enhance your cricket-following experience like never before.</Text>
               </div>
-              <Text fontSize={"large"} color="gray.400">It is an indivisual project.</Text>
-              <Text fontSize={"x-large"} color="yellowGreen">Role</Text>
-              <Text fontSize={"large"} color="gray.400">I created Home Page, Fantasy Page, Circlytic Page, Schedule Page, Login Page, Signup Page and, News Page. </Text>
+              <Text fontSize={"large"} color="white">It is an indivisual project.</Text>
+              <Text fontSize={"x-large"} color="#F5C32C">Role</Text>
+              <Text fontSize={"large"} color="white">I created Home Page, Fantasy Page, Circlytic Page, Schedule Page, Login Page, Signup Page and, News Page. </Text>
 
               <Flex mt={5} justify="center" gap={10} >
                 <a href="https://cricket-4bc52.web.app/" target="blank">
