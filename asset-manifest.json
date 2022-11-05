@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7638b130.css",
-    "main.js": "/static/js/main.e5fc2908.js",
+    "main.js": "/static/js/main.88c26bff.js",
     "static/media/netmeds_home.png": "/static/media/netmeds_home.a39d89d7c3ec62491228.png",
     "static/media/cartify_home.png": "/static/media/cartify_home.7fe95993e5293d8eb270.png",
     "static/media/cartify_searchbar.png": "/static/media/cartify_searchbar.62bd34e992cb37d12c8a.png",
@@ -37,10 +37,10 @@
     "static/media/firebase.png": "/static/media/firebase.97fa4dccb610bd998dba.png",
     "index.html": "/index.html",
     "main.7638b130.css.map": "/static/css/main.7638b130.css.map",
-    "main.e5fc2908.js.map": "/static/js/main.e5fc2908.js.map"
+    "main.88c26bff.js.map": "/static/js/main.88c26bff.js.map"
   },
   "entrypoints": [
     "static/css/main.7638b130.css",
-    "static/js/main.e5fc2908.js"
+    "static/js/main.88c26bff.js"
   ]
 }
