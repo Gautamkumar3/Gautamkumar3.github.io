@@ -17,16 +17,7 @@ a {
     z-index: 5;
 }
 
-.yellow {
-    color: #F5C32C;
-}
 
-.logo {
-    color: #1bc6ed;
-    font-weight: bold;
-    font-size: 40px;
-    margin-left: 15px;
-}
 
 .sidebar {
     display: flex;

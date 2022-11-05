@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import { FaGithub, FaLink } from "react-icons/fa"
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Text, SimpleGrid, Box, Flex, Button, IconButton, color, Link, Image } from "@chakra-ui/react"
+import { Text, SimpleGrid, Box, Flex, Button, IconButton, color, Link, Image, Heading } from "@chakra-ui/react"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import toogl1 from "../Img/toogl/toogl_home.png"
@@ -51,7 +51,7 @@ const Projects = () => {
   return (
     <>
       <Box my={10} name="project">
-        <Text mt={20} fontSize={'xx-large'} fontWeight='semibold' color={"red"} textAlign='center'>MY PROJECTS</Text>
+      <Heading m="auto" color="#F5C32C" textAlign="center">MY PROJECTS</Heading>
 
         <SimpleGrid name='projects'
           h="auto"

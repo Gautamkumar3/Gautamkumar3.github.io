@@ -19,7 +19,7 @@ const About = () => {
     return (
         <>
             <Box my={10} data-aos="zoom-in" mt="180px" name="about">
-                <Heading m="auto" color="red" textAlign="center"  >About Me</Heading>
+                <Heading m="auto" color="#F5C32C" textAlign="center">About Me</Heading>
                 <SimpleGrid columns={[1, 1, 2, 2]} spacing={10} w="80%" m="auto" mt={20}>
                     <Box >
                         <Image maxH="350px" src="https://d1mwexcsjeyerr.cloudfront.net/images/meanstack/side-img-2.png" />

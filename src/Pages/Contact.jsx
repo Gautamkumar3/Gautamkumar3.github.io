@@ -53,7 +53,7 @@ const Contact = () => {
     }
     return (
         <Box bg={bg} p={["0px", "30px", "40px"]} name="contact" >
-            <Heading my={10} pt={10} color="red" textAlign="center">Get in Touch</Heading>
+            <Heading my={10} pt={10} color="#F5C32C" textAlign="center">Get in Touch</Heading>
 
             <SimpleGrid columns={[1, 2]} gap={10} id="contact" width="80%" m="auto" my={14} >
 

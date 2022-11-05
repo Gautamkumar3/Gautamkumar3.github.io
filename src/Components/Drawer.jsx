@@ -73,7 +73,7 @@ export default function DrawerNav() {
                             <Link to="contact" offset={-190} onClick={onClose} spy={true} smooth={true}>
                                 <Text fontSize={25} fontWeight="bold" lineHeight="60px" color={"blackAlpha.700"} _hover={{ bg: "lightskyblue", px: "10px", color: "white", borderRadius: "10px" }}>CONTACTS</Text>
                             </Link>
-
+                          
                         </Flex>
                     </DrawerBody>
 

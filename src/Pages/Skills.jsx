@@ -68,7 +68,7 @@ const Skills = () => {
 
     return (
         <Box w={["90%", "80%"]} m="auto" my={14} mt="100px" name="skill" h={["auto", "60vh"]}>
-            <Heading mb={10} color="#E53E3E" textAlign="center">My Technical Skills</Heading>
+            <Heading mb={10} color="#F5C32C" textAlign="center">My Technical Skills</Heading>
             <SimpleGrid columns={[2, 4, 5, 7,]} spacing={5} my={14} color={color}>
                 {skill.map((el) =>
                     <Box bg="#BEE3F8" key={el.title} data-aos="zoom-in" textAlign="center" p={[3, 5]} rounded="xl" _hover={{ bg: "gray.300", color: { color }, boxShadow: 'xl', transform: "scale(1.125)" }}>

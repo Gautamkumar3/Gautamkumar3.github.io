@@ -4,11 +4,11 @@ import GitHubCalendar from 'react-github-calendar'
 const Github = () => {
     return (
         <Box w={["90%", "80%"]} margin="auto" p={[0, 10]} my={[0, 10]} >
-            <Heading color="red" textAlign="center" mb={[5, 10]}>Github Calender</Heading>
+            <Heading color="#F5C32C" textAlign="center" mb={[5, 10]}>Github Calender</Heading>
             <Center>
                 <GitHubCalendar username="Gautamkumar3" />
             </Center>
-            <Heading color="red" textAlign="center" my={[5, 10]}>Github Stats</Heading>
+            <Heading color="#F5C32C" textAlign="center" my={[5, 10]}>Github Stats</Heading>
             <SimpleGrid columns={[1,3]} >
                 <Center>
                     <Image src="https://github-readme-stats.vercel.app/api?username=Gautamkumar3&theme=dark&hide_border=false&include_all_commits=true&count_private=true" />
