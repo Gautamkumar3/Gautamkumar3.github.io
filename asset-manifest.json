@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.7638b130.css",
-    "main.js": "/static/js/main.37c1a7cb.js",
+    "main.js": "/static/js/main.7b48f331.js",
     "static/media/cartify_home.png": "/static/media/cartify_home.7fe95993e5293d8eb270.png",
-    "static/media/home.png": "/static/media/home.d424f1bba51d21346366.png",
+    "static/media/home.png": "/static/media/home.759d4072790aaa08e1b8.png",
     "static/media/cartify_searchbar.png": "/static/media/cartify_searchbar.62bd34e992cb37d12c8a.png",
     "static/media/create-blog.png": "/static/media/create-blog.38abc1467468e7c083ff.png",
     "static/media/blog-home.png": "/static/media/blog-home.8d581c020eb47f42832d.png",
@@ -11,11 +11,12 @@
     "static/media/cartify_login.png": "/static/media/cartify_login.68d47bc2b1bfad0b75d8.png",
     "static/media/cartify_signup.png": "/static/media/cartify_signup.db60f510fe17ddba0f89.png",
     "static/media/toogl_login.png": "/static/media/toogl_login.b7006221be4a76d322d4.png",
+    "static/media/product.png": "/static/media/product.a8b4a436658c340433c4.png",
     "static/media/cric_cir.png": "/static/media/cric_cir.73cf7f22a3c87f25993b.png",
     "static/media/cartify_details.png": "/static/media/cartify_details.74d3643f3c80499ba5c8.png",
     "static/media/cartify_men.png": "/static/media/cartify_men.70a625c8664daea7e584.png",
     "static/media/userProfile.png": "/static/media/userProfile.86016f8cd86e109999b7.png",
-    "static/media/product.png": "/static/media/product.a8b4a436658c340433c4.png",
+    "static/media/details.png": "/static/media/details.5116b2825d40375e4141.png",
     "static/media/toogl_signup.png": "/static/media/toogl_signup.a1e0f43286c3a3692fc2.png",
     "static/media/blog.png": "/static/media/blog.f936cc3f4d5f7fc0cd78.png",
     "static/media/cric_home.png": "/static/media/cric_home.a840a843654c857b3f76.png",
@@ -24,10 +25,10 @@
     "static/media/single-blog.png": "/static/media/single-blog.733a34b5ed6b443d2e02.png",
     "static/media/toogl_pricing.png": "/static/media/toogl_pricing.931ef4d92e9cfd685955.png",
     "static/media/toogl_home.png": "/static/media/toogl_home.04e4a57aa5ae4bd9c147.png",
+    "static/media/cart.png": "/static/media/cart.e543bc78842982a025b8.png",
     "static/media/cartify_cart.png": "/static/media/cartify_cart.836f1f935623ace842f5.png",
     "static/media/cric_fantacy.png": "/static/media/cric_fantacy.a780a6da1af7f3b0cdcc.png",
     "static/media/toogl_task.png": "/static/media/toogl_task.90320389b1287967c5d1.png",
-    "static/media/cart.png": "/static/media/cart.e543bc78842982a025b8.png",
     "static/media/myOrder.png": "/static/media/myOrder.ae96e3134d062cbeb39b.png",
     "static/media/cric_sche.png": "/static/media/cric_sche.b9105a4bfa071441bb23.png",
     "static/media/toogl_project.png": "/static/media/toogl_project.31d033224f9e7d7ac95c.png",
@@ -43,10 +44,10 @@
     "static/media/firebase.png": "/static/media/firebase.97fa4dccb610bd998dba.png",
     "index.html": "/index.html",
     "main.7638b130.css.map": "/static/css/main.7638b130.css.map",
-    "main.37c1a7cb.js.map": "/static/js/main.37c1a7cb.js.map"
+    "main.7b48f331.js.map": "/static/js/main.7b48f331.js.map"
   },
   "entrypoints": [
     "static/css/main.7638b130.css",
-    "static/js/main.37c1a7cb.js"
+    "static/js/main.7b48f331.js"
   ]
 }
